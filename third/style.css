@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+}
+
+.red {
+  display: flex;
+  align-items: center;
+  height:16%;
+  background-color: red;
+}
+
+.blue {
+  height: 5em;
+  width: 5em;;
+  margin-left: 10%;
+  background-color: blue;
+}
+
+.white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32%;
+  background-color: white;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 1.25em;
+}
+
+.orange
+{
+  height: 16%;
+  background-color: orange;
+}
+
+.yellow {
+  height:16%;
+  background-color: yellow;
+}
+
+.green {
+  height:16%;
+  background-color: green;
+}
+
+.indigo {
+  height:16%;
+  background-color: indigo;
+}
